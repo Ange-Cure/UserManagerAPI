@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "52d6b026-01aa-43e2-bcc2-01a8b3cb893c",
+		"name": "UserAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21799397"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/getUserById?id=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getUserById?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getUserById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/registerUser?username=Thomas&birthdate=11/02/2005&countryOfResidence=France",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/registerUser?username=Thomas&birthdate=11/02/2005&countryOfResidence=France",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"registerUser"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "Thomas"
+						},
+						{
+							"key": "birthdate",
+							"value": "11/02/2005"
+						},
+						{
+							"key": "countryOfResidence",
+							"value": "France"
+						},
+						{
+							"key": "phoneNumber",
+							"value": "2563481976",
+							"disabled": true
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
